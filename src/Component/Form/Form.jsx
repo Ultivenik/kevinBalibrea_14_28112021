@@ -61,7 +61,7 @@ export default function Form(props) {
                 }
             </Select>
             <Button value="Save" className="btn-create" />
-            { submit ? <Modal id="confirmation" value="Employee Created!" /> : null }
+            { submit ? <Modal id="confirmation" value="Employee Created!" /> : undefined }
         </form>
     )
 }

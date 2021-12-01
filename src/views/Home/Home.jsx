@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Form from '../../Component/Form/Form'
 import Title from '../../Component/Title/Title'
-import Modal from '../Modal/Modal'
 
 
 export default function Home() {
@@ -12,7 +11,6 @@ export default function Home() {
             <Link to="/employee">View Current Employees</Link>
             <Title Tag="h2" className="title-create-employee" text="Create Employee" />
             <Form id="create-employee" />
-            
         </main>
     )
 }
