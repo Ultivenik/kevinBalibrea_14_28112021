@@ -9,6 +9,8 @@ import Button from '../Button/Button'
 import {useSelector, useDispatch} from 'react-redux'
 import Modal from '../../views/Modal/Modal'
 import { submitted } from '../../Store/actions'
+import DateSelector from '../DateSelector/DateSelector'
+
 
 export default function Form(props) {
     const submit = useSelector(state => state.isSubmitted)
@@ -17,18 +19,20 @@ export default function Form(props) {
     const handleSubmit = e => {
         e.preventDefault()
         dispatch({type: submitted})
+        const employees = JSON.parse(localStorage.getItem('data')) || []
         let dataEmployees = {
             firstName: e.target.elements[0].value,
             lastName: e.target.elements[1].value,
             dateOfBirth: e.target.elements[2].value,
             startDate: e.target.elements[3].value,
-            department: e.target.elements[5].value,
-            street: e.target.elements[6].value,
-            city: e.target.elements[7].value,
-            state: e.target.elements[8].value,
-            zipCode: e.target.elements[9].value,
+            street: e.target.elements[5].value,
+            city: e.target.elements[6].value,
+            state: e.target.elements[7].value,
+            zipCode: e.target.elements[8].value,
+            department: e.target.elements[9].value,
         }
-        localStorage.setItem("data", JSON.stringify(dataEmployees))
+        employees.push(dataEmployees)
+        localStorage.setItem("data", JSON.stringify(employees))
         console.log(
             JSON.parse(localStorage.getItem("data"))
         );
@@ -38,8 +42,8 @@ export default function Form(props) {
         <form onSubmit={handleSubmit} id= {props.id}>
             <Field type="text" value="First Name" id="first-name" />
             <Field type="text" value="Last Name" id="last-name" />
-            <Field type="text" value="Date of Birth" id="date-of-birth" />
-            <Field type="text" value="Start date" id="start-date" />
+            <DateSelector value="Date of Birth" id="birth" />
+            <DateSelector value="Start date" id="start-date" />
             <fieldset>
                 <legend>Address</legend>
                 <Field type="text" value="Street" id="street" />
