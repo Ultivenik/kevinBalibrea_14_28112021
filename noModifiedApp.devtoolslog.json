@@ -1,0 +1,2116 @@
+[
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "C50146E5754895490328009591C90BBE",
+      "name": "commit",
+      "timestamp": 17560.537757
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "C50146E5754895490328009591C90BBE",
+      "name": "DOMContentLoaded",
+      "timestamp": 17560.537968
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "C50146E5754895490328009591C90BBE",
+      "name": "load",
+      "timestamp": 17560.538391
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "C50146E5754895490328009591C90BBE",
+      "name": "networkAlmostIdle",
+      "timestamp": 17560.538805
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "C50146E5754895490328009591C90BBE",
+      "name": "networkIdle",
+      "timestamp": 17560.538805
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "8479F3442E2404083D4177C43EE61DC9",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "documentURL": "http://localhost:5500/P12_Front-end/employee-list.html",
+      "request": {
+        "url": "http://localhost:5500/P12_Front-end/employee-list.html",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 17561.526698,
+      "wallTime": 1638969943.791009,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Document",
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "8479F3442E2404083D4177C43EE61DC9",
+      "associatedCookies": [],
+      "headers": {
+        "Host": "localhost:5500",
+        "Connection": "keep-alive",
+        "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+      },
+      "connectTiming": {
+        "requestTime": 17561.52835
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "8479F3442E2404083D4177C43EE61DC9",
+      "blockedCookies": [],
+      "headers": {
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "Accept-Ranges": "bytes",
+        "Cache-Control": "public, max-age=0",
+        "Last-Modified": "Sun, 28 Nov 2021 22:17:30 GMT",
+        "ETag": "W/\"2db-17d689feb03\"",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Length": "2246",
+        "Date": "Wed, 08 Dec 2021 13:25:44 GMT",
+        "Connection": "keep-alive",
+        "Keep-Alive": "timeout=5"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nVary: Origin\r\nAccess-Control-Allow-Credentials: true\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Sun, 28 Nov 2021 22:17:30 GMT\r\nETag: W/\"2db-17d689feb03\"\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 2246\r\nDate: Wed, 08 Dec 2021 13:25:44 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "8479F3442E2404083D4177C43EE61DC9",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "timestamp": 17561.84096,
+      "type": "Document",
+      "response": {
+        "url": "http://localhost:5500/P12_Front-end/employee-list.html",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Vary": "Origin",
+          "Access-Control-Allow-Credentials": "true",
+          "Accept-Ranges": "bytes",
+          "Cache-Control": "public, max-age=0",
+          "Last-Modified": "Sun, 28 Nov 2021 22:17:30 GMT",
+          "ETag": "W/\"2db-17d689feb03\"",
+          "Content-Type": "text/html; charset=UTF-8",
+          "Content-Length": "2246",
+          "Date": "Wed, 08 Dec 2021 13:25:44 GMT",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=5"
+        },
+        "mimeType": "text/html",
+        "connectionReused": false,
+        "connectionId": 49,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 5500,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 348,
+        "timing": {
+          "requestTime": 17561.52835,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.922,
+          "dnsEnd": 0.934,
+          "connectStart": 309.174,
+          "connectEnd": 309.932,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 310.12,
+          "sendEnd": 310.232,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 311.841
+        },
+        "responseTime": 1638969944104.183,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1"
+    }
+  },
+  {
+    "method": "Page.frameStartedLoading",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1"
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "name": "init",
+      "timestamp": 17561.842639
+    }
+  },
+  {
+    "method": "Page.frameNavigated",
+    "params": {
+      "frame": {
+        "id": "B33D93CD598982C2199CA99A4C37D3F1",
+        "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+        "url": "http://localhost:5500/P12_Front-end/employee-list.html",
+        "domainAndRegistry": "",
+        "securityOrigin": "http://localhost:5500",
+        "mimeType": "text/html",
+        "adFrameStatus": {
+          "adFrameType": "none"
+        },
+        "secureContextType": "SecureLocalhost",
+        "crossOriginIsolatedContextType": "NotIsolated",
+        "gatedAPIFeatures": []
+      },
+      "type": "Navigation"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "8479F3442E2404083D4177C43EE61DC9",
+      "timestamp": 17561.851405,
+      "dataLength": 2246,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "5876.2",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "documentURL": "http://localhost:5500/P12_Front-end/employee-list.html",
+      "request": {
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+          "Referer": "http://localhost:5500/",
+          "sec-ch-ua-mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": false
+      },
+      "timestamp": 17561.852025,
+      "wallTime": 1638969944.116205,
+      "initiator": {
+        "type": "parser",
+        "url": "http://localhost:5500/P12_Front-end/employee-list.html",
+        "lineNumber": 3,
+        "columnNumber": 87
+      },
+      "type": "Script",
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "5876.3",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "documentURL": "http://localhost:5500/P12_Front-end/employee-list.html",
+      "request": {
+        "url": "https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+          "Referer": "http://localhost:5500/",
+          "sec-ch-ua-mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": false
+      },
+      "timestamp": 17561.852541,
+      "wallTime": 1638969944.116701,
+      "initiator": {
+        "type": "parser",
+        "url": "http://localhost:5500/P12_Front-end/employee-list.html",
+        "lineNumber": 4,
+        "columnNumber": 85
+      },
+      "type": "Script",
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "5876.4",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "documentURL": "http://localhost:5500/P12_Front-end/employee-list.html",
+      "request": {
+        "url": "https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+          "Referer": "http://localhost:5500/",
+          "sec-ch-ua-mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": false
+      },
+      "timestamp": 17561.8529,
+      "wallTime": 1638969944.117069,
+      "initiator": {
+        "type": "parser",
+        "url": "http://localhost:5500/P12_Front-end/employee-list.html",
+        "lineNumber": 5,
+        "columnNumber": 105
+      },
+      "type": "Stylesheet",
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "5876.5",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "documentURL": "http://localhost:5500/P12_Front-end/employee-list.html",
+      "request": {
+        "url": "http://localhost:5500/P12_Front-end/employee-list.js",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+          "Referer": "http://localhost:5500/P12_Front-end/employee-list.html",
+          "sec-ch-ua-mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 17561.853286,
+      "wallTime": 1638969944.117444,
+      "initiator": {
+        "type": "parser",
+        "url": "http://localhost:5500/P12_Front-end/employee-list.html",
+        "lineNumber": 6,
+        "columnNumber": 39
+      },
+      "type": "Script",
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "5876.6",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "documentURL": "http://localhost:5500/P12_Front-end/employee-list.html",
+      "request": {
+        "url": "http://localhost:5500/P12_Front-end/app.css",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+          "Referer": "http://localhost:5500/P12_Front-end/employee-list.html",
+          "sec-ch-ua-mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 17561.853647,
+      "wallTime": 1638969944.117804,
+      "initiator": {
+        "type": "parser",
+        "url": "http://localhost:5500/P12_Front-end/employee-list.html",
+        "lineNumber": 7,
+        "columnNumber": 48
+      },
+      "type": "Stylesheet",
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "8479F3442E2404083D4177C43EE61DC9",
+      "timestamp": 17561.840565,
+      "encodedDataLength": 2594,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "5876.2",
+      "associatedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "ajax.googleapis.com",
+        ":scheme": "https",
+        ":path": "/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "accept": "*/*",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "referer": "http://localhost:5500/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+      },
+      "connectTiming": {
+        "requestTime": 17561.852599
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "5876.2",
+      "blockedCookies": [],
+      "headers": {
+        "accept-ranges": "bytes",
+        "vary": "Accept-Encoding",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/hosted-libraries-pushers",
+        "cross-origin-resource-policy": "cross-origin",
+        "cross-origin-opener-policy": "same-origin; report-to=\"hosted-libraries-pushers\"",
+        "report-to": "{\"group\":\"hosted-libraries-pushers\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/hosted-libraries-pushers\"}]}",
+        "timing-allow-origin": "*",
+        "content-length": "31021",
+        "date": "Wed, 08 Dec 2021 05:55:07 GMT",
+        "expires": "Thu, 08 Dec 2022 05:55:07 GMT",
+        "last-modified": "Fri, 08 May 2020 07:05:03 GMT",
+        "x-content-type-options": "nosniff",
+        "server": "sffe",
+        "x-xss-protection": "0",
+        "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+        "age": "27037",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "5876.5",
+      "associatedCookies": [],
+      "headers": {
+        "Host": "localhost:5500",
+        "Connection": "keep-alive",
+        "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "Accept": "*/*",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Dest": "script",
+        "Referer": "http://localhost:5500/P12_Front-end/employee-list.html",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+      },
+      "connectTiming": {
+        "requestTime": 17561.853729
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "5876.6",
+      "associatedCookies": [],
+      "headers": {
+        "Host": "localhost:5500",
+        "Connection": "keep-alive",
+        "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "Accept": "text/css,*/*;q=0.1",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Dest": "style",
+        "Referer": "http://localhost:5500/P12_Front-end/employee-list.html",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+      },
+      "connectTiming": {
+        "requestTime": 17561.854153
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "5876.2",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "timestamp": 17561.959722,
+      "type": "Script",
+      "response": {
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Wed, 08 Dec 2021 05:55:07 GMT",
+          "content-encoding": "gzip",
+          "x-content-type-options": "nosniff",
+          "age": "27037",
+          "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/hosted-libraries-pushers",
+          "cross-origin-resource-policy": "cross-origin",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+          "content-length": "31021",
+          "x-xss-protection": "0",
+          "last-modified": "Fri, 08 May 2020 07:05:03 GMT",
+          "server": "sffe",
+          "cross-origin-opener-policy": "same-origin; report-to=\"hosted-libraries-pushers\"",
+          "vary": "Accept-Encoding",
+          "report-to": "{\"group\":\"hosted-libraries-pushers\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/hosted-libraries-pushers\"}]}",
+          "content-type": "text/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "accept-ranges": "bytes",
+          "timing-allow-origin": "*",
+          "expires": "Thu, 08 Dec 2022 05:55:07 GMT"
+        },
+        "mimeType": "text/javascript",
+        "connectionReused": false,
+        "connectionId": 62,
+        "remoteIPAddress": "216.58.213.170",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 31745,
+        "timing": {
+          "requestTime": 17561.852599,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 34.361,
+          "dnsEnd": 35.066,
+          "connectStart": 35.066,
+          "connectEnd": 70.378,
+          "sslStart": 47.372,
+          "sslEnd": 70.364,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 70.602,
+          "sendEnd": 70.701,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 104.917
+        },
+        "responseTime": 1638969944201.168,
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "upload.video.google.com",
+          "sanList": [
+            "upload.video.google.com",
+            "*.clients.google.com",
+            "*.docs.google.com",
+            "*.drive.google.com",
+            "*.gdata.youtube.com",
+            "*.googleapis.com",
+            "*.photos.google.com",
+            "*.youtube-3rd-party.com",
+            "upload.google.com",
+            "*.upload.google.com",
+            "upload.youtube.com",
+            "*.upload.youtube.com",
+            "uploads.stage.gdata.youtube.com",
+            "bg-call-donation.goog",
+            "bg-call-donation-alpha.goog",
+            "bg-call-donation-canary.goog",
+            "bg-call-donation-dev.goog"
+          ],
+          "issuer": "GTS CA 1C3",
+          "validFrom": 1635735525,
+          "validTo": 1642993124,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Trust Asia Log2022",
+              "logId": "C365F9B3654F3283C79DA98E93D7418F5BAB7BE3252C98E1D2F04BB9EB427D23",
+              "timestamp": 1635739127755,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3044022030AAD35DF617F2ED42143ACF0A5F213403A6E5550EB7824E26D4EC69A7551CDA02205AEC03ADCD11C17752D7DBD0633480FEA1C9CB3D061BF8FF8860AA6229C1E0B6"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Argon2022' log",
+              "logId": "2979BEF09E393921F056739F63A577E5BE577D9C600AF8F94D5D265C255DC784",
+              "timestamp": 1635739127307,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3044022060E9F3A72AB71A638652F710DC557BB83A697D0C250A060449D8D3CC5A910E950220154F541D846354E37561CBBC4C3617262CA37AB3D7D6CA7CC8849E95516D16EC"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "5876.2",
+      "timestamp": 17561.959908,
+      "dataLength": 89476,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "5876.6",
+      "blockedCookies": [],
+      "headers": {
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "Accept-Ranges": "bytes",
+        "Cache-Control": "public, max-age=0",
+        "Last-Modified": "Sun, 28 Nov 2021 22:17:30 GMT",
+        "ETag": "W/\"151-17d689feb01\"",
+        "Content-Type": "text/css; charset=UTF-8",
+        "Content-Length": "337",
+        "Date": "Wed, 08 Dec 2021 13:25:44 GMT",
+        "Connection": "keep-alive",
+        "Keep-Alive": "timeout=5"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nVary: Origin\r\nAccess-Control-Allow-Credentials: true\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Sun, 28 Nov 2021 22:17:30 GMT\r\nETag: W/\"151-17d689feb01\"\r\nContent-Type: text/css; charset=UTF-8\r\nContent-Length: 337\r\nDate: Wed, 08 Dec 2021 13:25:44 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "5876.5",
+      "blockedCookies": [],
+      "headers": {
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "Accept-Ranges": "bytes",
+        "Cache-Control": "public, max-age=0",
+        "Last-Modified": "Sun, 28 Nov 2021 22:17:30 GMT",
+        "ETag": "W/\"2a9-17d689feb16\"",
+        "Content-Type": "application/javascript; charset=UTF-8",
+        "Content-Length": "681",
+        "Date": "Wed, 08 Dec 2021 13:25:44 GMT",
+        "Connection": "keep-alive",
+        "Keep-Alive": "timeout=5"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nVary: Origin\r\nAccess-Control-Allow-Credentials: true\r\nAccept-Ranges: bytes\r\nCache-Control: public, max-age=0\r\nLast-Modified: Sun, 28 Nov 2021 22:17:30 GMT\r\nETag: W/\"2a9-17d689feb16\"\r\nContent-Type: application/javascript; charset=UTF-8\r\nContent-Length: 681\r\nDate: Wed, 08 Dec 2021 13:25:44 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "5876.6",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "timestamp": 17561.961518,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://localhost:5500/P12_Front-end/app.css",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Wed, 08 Dec 2021 13:25:44 GMT",
+          "Last-Modified": "Sun, 28 Nov 2021 22:17:30 GMT",
+          "ETag": "W/\"151-17d689feb01\"",
+          "Vary": "Origin",
+          "Content-Type": "text/css; charset=UTF-8",
+          "Cache-Control": "public, max-age=0",
+          "Access-Control-Allow-Credentials": "true",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Keep-Alive": "timeout=5",
+          "Content-Length": "337"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 50,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 5500,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 346,
+        "timing": {
+          "requestTime": 17561.854153,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 103.825,
+          "sendEnd": 103.909,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 106.702
+        },
+        "responseTime": 1638969944224.03,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "5876.5",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "timestamp": 17561.961763,
+      "type": "Script",
+      "response": {
+        "url": "http://localhost:5500/P12_Front-end/employee-list.js",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Wed, 08 Dec 2021 13:25:44 GMT",
+          "Last-Modified": "Sun, 28 Nov 2021 22:17:30 GMT",
+          "ETag": "W/\"2a9-17d689feb16\"",
+          "Vary": "Origin",
+          "Content-Type": "application/javascript; charset=UTF-8",
+          "Cache-Control": "public, max-age=0",
+          "Access-Control-Allow-Credentials": "true",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Keep-Alive": "timeout=5",
+          "Content-Length": "681"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 49,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 5500,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 360,
+        "timing": {
+          "requestTime": 17561.853729,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 104.13,
+          "sendEnd": 104.198,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 107.363
+        },
+        "responseTime": 1638969944224.481,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "5876.6",
+      "timestamp": 17561.961948,
+      "dataLength": 337,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "5876.6",
+      "timestamp": 17561.96219,
+      "dataLength": 0,
+      "encodedDataLength": 337
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "5876.6",
+      "timestamp": 17561.961391,
+      "encodedDataLength": 683,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "5876.5",
+      "timestamp": 17561.962277,
+      "dataLength": 681,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "5876.5",
+      "timestamp": 17561.962833,
+      "dataLength": 0,
+      "encodedDataLength": 681
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "5876.5",
+      "timestamp": 17561.961608,
+      "encodedDataLength": 1041,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "5876.2",
+      "timestamp": 17561.959168,
+      "encodedDataLength": 31745,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "5876.4",
+      "associatedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "cdn.datatables.net",
+        ":scheme": "https",
+        ":path": "/1.10.21/css/jquery.dataTables.min.css",
+        "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "referer": "http://localhost:5500/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+      },
+      "connectTiming": {
+        "requestTime": 17561.853264
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "5876.3",
+      "associatedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "cdn.datatables.net",
+        ":scheme": "https",
+        ":path": "/1.10.21/js/jquery.dataTables.min.js",
+        "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "accept": "*/*",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "referer": "http://localhost:5500/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+      },
+      "connectTiming": {
+        "requestTime": 17561.852893
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "5876.4",
+      "blockedCookies": [],
+      "headers": {
+        "date": "Wed, 08 Dec 2021 13:25:44 GMT",
+        "content-type": "text/css; charset=utf-8",
+        "content-length": "2107",
+        "x-frame-options": "SAMEORIGIN",
+        "last-modified": "Thu, 11 Nov 2021 17:29:12 GMT",
+        "etag": "\"15a0353-3644-5d086ae4e9d11-gzip\"",
+        "cache-control": "max-age=31536000",
+        "expires": "Wed, 16 Nov 2022 01:27:16 GMT",
+        "vary": "Accept-Encoding,User-Agent",
+        "content-encoding": "gzip",
+        "access-control-allow-origin": "*",
+        "access-control-allow-headers": "origin, x-requested-with, content-type",
+        "access-control-allow-methods": "GET",
+        "cf-cache-status": "HIT",
+        "age": "1943907",
+        "accept-ranges": "bytes",
+        "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "cf-ray": "6ba6524bbc77046e-CDG"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "5876.3",
+      "blockedCookies": [],
+      "headers": {
+        "date": "Wed, 08 Dec 2021 13:25:44 GMT",
+        "content-type": "application/javascript; charset=utf-8",
+        "content-length": "29029",
+        "x-frame-options": "SAMEORIGIN",
+        "last-modified": "Tue, 08 Jun 2021 08:47:53 GMT",
+        "etag": "\"15a0068-14aa7-5c43d36bd488e-gzip\"",
+        "cache-control": "max-age=31536000",
+        "expires": "Wed, 08 Jun 2022 09:26:57 GMT",
+        "vary": "Accept-Encoding,User-Agent",
+        "content-encoding": "gzip",
+        "access-control-allow-origin": "*",
+        "access-control-allow-headers": "origin, x-requested-with, content-type",
+        "access-control-allow-methods": "GET",
+        "cf-cache-status": "HIT",
+        "age": "15825527",
+        "accept-ranges": "bytes",
+        "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "server": "cloudflare",
+        "cf-ray": "6ba6524bbc78046e-CDG"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "5876.4",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "timestamp": 17562.077678,
+      "type": "Stylesheet",
+      "response": {
+        "url": "https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Wed, 08 Dec 2021 13:25:44 GMT",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding,User-Agent",
+          "cf-cache-status": "HIT",
+          "age": "1943907",
+          "content-length": "2107",
+          "last-modified": "Thu, 11 Nov 2021 17:29:12 GMT",
+          "server": "cloudflare",
+          "etag": "\"15a0353-3644-5d086ae4e9d11-gzip\"",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-methods": "GET",
+          "content-type": "text/css; charset=utf-8",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "accept-ranges": "bytes",
+          "cf-ray": "6ba6524bbc77046e-CDG",
+          "access-control-allow-headers": "origin, x-requested-with, content-type",
+          "expires": "Wed, 16 Nov 2022 01:27:16 GMT"
+        },
+        "mimeType": "text/css",
+        "connectionReused": false,
+        "connectionId": 79,
+        "remoteIPAddress": "104.22.50.93",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 2538,
+        "timing": {
+          "requestTime": 17561.853264,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 103.949,
+          "dnsEnd": 104.836,
+          "connectStart": 104.836,
+          "connectEnd": 136.994,
+          "sslStart": 112.761,
+          "sslEnd": 136.988,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 137.558,
+          "sendEnd": 137.723,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 222.84
+        },
+        "responseTime": 1638969944282.453,
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni.cloudflaressl.com",
+          "sanList": [
+            "datatables.net",
+            "sni.cloudflaressl.com",
+            "*.datatables.net"
+          ],
+          "issuer": "Cloudflare Inc ECC CA-3",
+          "validFrom": 1624838400,
+          "validTo": 1656374399,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Argon2022' log",
+              "logId": "2979BEF09E393921F056739F63A577E5BE577D9C600AF8F94D5D265C255DC784",
+              "timestamp": 1624893022797,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100CC70E788575CD7682FAF7C20731E710A960B3B9A31D8A34E6D253E3A1EC18888022100F2FB57823E4184A536618F8C4B1C9DA35602AF5FBB4BD1E8175C444B53D9EB39"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "DigiCert Yeti2022 Log",
+              "logId": "2245450759552456963FA12FF1F76D86E0232663ADC04B7F5DC6835C6EE20F02",
+              "timestamp": 1624893022845,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100AC359DE78E6655F1BD780E4595A2BCD4CAD3CD8786E7BDD18D4621128B6CB7A70221008217AF730ECF293B1DB51BB7393FDC74A8E3771E6BBC9D9AA165E4E42D38C77C"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2022' Log",
+              "logId": "41C8CAB1DF22464A10C6A13A0942875E4E318B1B03EBEB4BC768F090629606F6",
+              "timestamp": 1624893022881,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100F41EF085350F57321639838E9A1071C126FCA1A209628890357CE5C21F11E23A02202EA04C05A6D6505C6D996789CD6B4FF67483ABAA5ECCFDE0911419AFFF8418E1"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "5876.4",
+      "timestamp": 17562.078429,
+      "dataLength": 13892,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "5876.3",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "timestamp": 17562.078971,
+      "type": "Script",
+      "response": {
+        "url": "https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Wed, 08 Dec 2021 13:25:44 GMT",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding,User-Agent",
+          "cf-cache-status": "HIT",
+          "age": "15825527",
+          "content-length": "29029",
+          "last-modified": "Tue, 08 Jun 2021 08:47:53 GMT",
+          "server": "cloudflare",
+          "etag": "\"15a0068-14aa7-5c43d36bd488e-gzip\"",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "x-frame-options": "SAMEORIGIN",
+          "access-control-allow-methods": "GET",
+          "content-type": "application/javascript; charset=utf-8",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "accept-ranges": "bytes",
+          "cf-ray": "6ba6524bbc78046e-CDG",
+          "access-control-allow-headers": "origin, x-requested-with, content-type",
+          "expires": "Wed, 08 Jun 2022 09:26:57 GMT"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 79,
+        "remoteIPAddress": "104.22.50.93",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 29232,
+        "timing": {
+          "requestTime": 17561.852893,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 137.985,
+          "sendEnd": 138.096,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 223.677
+        },
+        "responseTime": 1638969944282.732,
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni.cloudflaressl.com",
+          "sanList": [
+            "datatables.net",
+            "sni.cloudflaressl.com",
+            "*.datatables.net"
+          ],
+          "issuer": "Cloudflare Inc ECC CA-3",
+          "validFrom": 1624838400,
+          "validTo": 1656374399,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Argon2022' log",
+              "logId": "2979BEF09E393921F056739F63A577E5BE577D9C600AF8F94D5D265C255DC784",
+              "timestamp": 1624893022797,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100CC70E788575CD7682FAF7C20731E710A960B3B9A31D8A34E6D253E3A1EC18888022100F2FB57823E4184A536618F8C4B1C9DA35602AF5FBB4BD1E8175C444B53D9EB39"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "DigiCert Yeti2022 Log",
+              "logId": "2245450759552456963FA12FF1F76D86E0232663ADC04B7F5DC6835C6EE20F02",
+              "timestamp": 1624893022845,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100AC359DE78E6655F1BD780E4595A2BCD4CAD3CD8786E7BDD18D4621128B6CB7A70221008217AF730ECF293B1DB51BB7393FDC74A8E3771E6BBC9D9AA165E4E42D38C77C"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2022' Log",
+              "logId": "41C8CAB1DF22464A10C6A13A0942875E4E318B1B03EBEB4BC768F090629606F6",
+              "timestamp": 1624893022881,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100F41EF085350F57321639838E9A1071C126FCA1A209628890357CE5C21F11E23A02202EA04C05A6D6505C6D996789CD6B4FF67483ABAA5ECCFDE0911419AFFF8418E1"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "5876.3",
+      "timestamp": 17562.079121,
+      "dataLength": 84647,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "5876.4",
+      "timestamp": 17562.077519,
+      "encodedDataLength": 2538,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "5876.3",
+      "timestamp": 17562.07844,
+      "encodedDataLength": 29232,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.webSocketCreated",
+    "params": {
+      "requestId": "5876.12",
+      "url": "ws://localhost:5500/P12_Front-end/employee-list.html/ws",
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "15",
+              "url": "http://localhost:5500/P12_Front-end/employee-list.html",
+              "lineNumber": 37,
+              "columnNumber": 16
+            },
+            {
+              "functionName": "",
+              "scriptId": "15",
+              "url": "http://localhost:5500/P12_Front-end/employee-list.html",
+              "lineNumber": 46,
+              "columnNumber": 4
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "method": "Page.domContentEventFired",
+    "params": {
+      "timestamp": 17562.091949
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "name": "DOMContentLoaded",
+      "timestamp": 17562.091949
+    }
+  },
+  {
+    "method": "Page.loadEventFired",
+    "params": {
+      "timestamp": 17562.108729
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "name": "load",
+      "timestamp": 17562.108729
+    }
+  },
+  {
+    "method": "Page.frameStoppedLoading",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1"
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "5876.13",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "documentURL": "http://localhost:5500/P12_Front-end/employee-list.html",
+      "request": {
+        "url": "https://cdn.datatables.net/1.10.21/images/sort_both.png",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+          "Referer": "https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css",
+          "sec-ch-ua-mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": false
+      },
+      "timestamp": 17562.138762,
+      "wallTime": 1638969944.402918,
+      "initiator": {
+        "type": "parser",
+        "url": "https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"
+      },
+      "type": "Image",
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "5876.13",
+      "newPriority": "High",
+      "timestamp": 17562.147124
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "5876.14",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "documentURL": "http://localhost:5500/P12_Front-end/employee-list.html",
+      "request": {
+        "url": "https://cdn.datatables.net/1.10.21/images/sort_asc.png",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+          "Referer": "https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css",
+          "sec-ch-ua-mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": false
+      },
+      "timestamp": 17562.155218,
+      "wallTime": 1638969944.419376,
+      "initiator": {
+        "type": "parser",
+        "url": "https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"
+      },
+      "type": "Image",
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "5876.14",
+      "newPriority": "High",
+      "timestamp": 17562.15751
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "5876.15",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "documentURL": "http://localhost:5500/P12_Front-end/employee-list.html",
+      "request": {
+        "url": "http://localhost:5500/favicon.ico",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+          "Referer": "http://localhost:5500/P12_Front-end/employee-list.html",
+          "sec-ch-ua-mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 17562.158896,
+      "wallTime": 1638969944.423067,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Other",
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "name": "firstPaint",
+      "timestamp": 17562.147628
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "name": "firstContentfulPaint",
+      "timestamp": 17562.147628
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "name": "firstMeaningfulPaintCandidate",
+      "timestamp": 17562.147628
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "name": "firstMeaningfulPaintCandidate",
+      "timestamp": 17562.330866
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "5876.13",
+      "associatedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "cdn.datatables.net",
+        ":scheme": "https",
+        ":path": "/1.10.21/images/sort_both.png",
+        "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "referer": "https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+      },
+      "connectTiming": {
+        "requestTime": 17562.139311
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "5876.14",
+      "associatedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "cdn.datatables.net",
+        ":scheme": "https",
+        ":path": "/1.10.21/images/sort_asc.png",
+        "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "referer": "https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+      },
+      "connectTiming": {
+        "requestTime": 17562.155571
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "5876.15",
+      "associatedCookies": [],
+      "headers": {
+        "Host": "localhost:5500",
+        "Connection": "keep-alive",
+        "sec-ch-ua": "\"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\", \"Lighthouse\";v=\"9.1.0\"",
+        "sec-ch-ua-mobile": "?0",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "no-cors",
+        "Sec-Fetch-Dest": "image",
+        "Referer": "http://localhost:5500/P12_Front-end/employee-list.html",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+      },
+      "connectTiming": {
+        "requestTime": 17562.159425
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "Local",
+        "privateNetworkRequestPolicy": "Allow"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "5876.15",
+      "blockedCookies": [],
+      "headers": {
+        "Vary": "Origin",
+        "Access-Control-Allow-Credentials": "true",
+        "Content-Security-Policy": "default-src 'self'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "150",
+        "Date": "Wed, 08 Dec 2021 13:25:44 GMT",
+        "Connection": "keep-alive",
+        "Keep-Alive": "timeout=5"
+      },
+      "resourceIPAddressSpace": "Local",
+      "statusCode": 404,
+      "headersText": "HTTP/1.1 404 Not Found\r\nVary: Origin\r\nAccess-Control-Allow-Credentials: true\r\nContent-Security-Policy: default-src 'self'\r\nX-Content-Type-Options: nosniff\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 150\r\nDate: Wed, 08 Dec 2021 13:25:44 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "5876.15",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "timestamp": 17562.34722,
+      "type": "Other",
+      "response": {
+        "url": "http://localhost:5500/favicon.ico",
+        "status": 404,
+        "statusText": "Not Found",
+        "headers": {
+          "Content-Security-Policy": "default-src 'self'",
+          "X-Content-Type-Options": "nosniff",
+          "Date": "Wed, 08 Dec 2021 13:25:44 GMT",
+          "Vary": "Origin",
+          "Content-Type": "text/html; charset=utf-8",
+          "Access-Control-Allow-Credentials": "true",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=5",
+          "Content-Length": "150"
+        },
+        "mimeType": "text/html",
+        "connectionReused": true,
+        "connectionId": 49,
+        "remoteIPAddress": "127.0.0.1",
+        "remotePort": 5500,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 303,
+        "timing": {
+          "requestTime": 17562.159425,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 185.673,
+          "sendEnd": 185.81,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 187.276
+        },
+        "responseTime": 1638969944610.697,
+        "protocol": "http/1.1",
+        "securityState": "secure"
+      },
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "5876.15",
+      "timestamp": 17562.347595,
+      "dataLength": 150,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "5876.15",
+      "timestamp": 17562.347887,
+      "dataLength": 0,
+      "encodedDataLength": 150
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "5876.15",
+      "timestamp": 17562.347251,
+      "encodedDataLength": 453,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.webSocketWillSendHandshakeRequest",
+    "params": {
+      "requestId": "5876.12",
+      "timestamp": 17562.401981,
+      "wallTime": 1638969944.666102,
+      "request": {
+        "headers": {
+          "Pragma": "no-cache",
+          "Origin": "http://localhost:5500",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Host": "localhost:5500",
+          "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+          "Sec-WebSocket-Key": "8FNv5grT1hBRPDyu518r1A==",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+          "Upgrade": "websocket",
+          "Sec-WebSocket-Extensions": "permessage-deflate; client_max_window_bits",
+          "Cache-Control": "no-cache",
+          "Connection": "Upgrade",
+          "Sec-WebSocket-Version": "13"
+        }
+      }
+    }
+  },
+  {
+    "method": "Network.webSocketHandshakeResponseReceived",
+    "params": {
+      "requestId": "5876.12",
+      "timestamp": 17562.403459,
+      "response": {
+        "status": 101,
+        "statusText": "Switching Protocols",
+        "headers": {
+          "Connection": "Upgrade",
+          "Sec-WebSocket-Accept": "068sVYP5tEVf1R8nDhT01PDYh5s=",
+          "Upgrade": "websocket"
+        },
+        "headersText": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept: 068sVYP5tEVf1R8nDhT01PDYh5s=\r\n\r\n",
+        "requestHeaders": {
+          "Pragma": "no-cache",
+          "Origin": "http://localhost:5500",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Host": "localhost:5500",
+          "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+          "Sec-WebSocket-Key": "8FNv5grT1hBRPDyu518r1A==",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+          "Upgrade": "websocket",
+          "Sec-WebSocket-Extensions": "permessage-deflate; client_max_window_bits",
+          "Cache-Control": "no-cache",
+          "Connection": "Upgrade",
+          "Sec-WebSocket-Version": "13"
+        },
+        "requestHeadersText": "GET ws://localhost:5500/P12_Front-end/employee-list.html/ws HTTP/1.1\r\nHost: localhost:5500\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse\r\nUpgrade: websocket\r\nOrigin: http://localhost:5500\r\nSec-WebSocket-Version: 13\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7\r\nSec-WebSocket-Key: 8FNv5grT1hBRPDyu518r1A==\r\nSec-WebSocket-Extensions: permessage-deflate; client_max_window_bits\r\n\r\n"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "5876.14",
+      "blockedCookies": [],
+      "headers": {
+        "date": "Wed, 08 Dec 2021 13:25:45 GMT",
+        "content-type": "image/png",
+        "content-length": "160",
+        "x-frame-options": "SAMEORIGIN",
+        "last-modified": "Thu, 11 Nov 2021 17:29:12 GMT",
+        "etag": "\"15e0929-a0-5d086ae4ea0f9\"",
+        "cache-control": "max-age=31536000",
+        "expires": "Wed, 16 Nov 2022 01:28:54 GMT",
+        "cf-cache-status": "HIT",
+        "age": "1943810",
+        "accept-ranges": "bytes",
+        "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "vary": "Accept-Encoding",
+        "server": "cloudflare",
+        "cf-ray": "6ba6524defa5046e-CDG"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "5876.13",
+      "blockedCookies": [],
+      "headers": {
+        "date": "Wed, 08 Dec 2021 13:25:45 GMT",
+        "content-type": "image/png",
+        "content-length": "201",
+        "x-frame-options": "SAMEORIGIN",
+        "last-modified": "Tue, 08 Jun 2021 08:47:53 GMT",
+        "etag": "\"15e11c6-c9-5c43d36ba75e6\"",
+        "cache-control": "max-age=31536000",
+        "expires": "Wed, 08 Jun 2022 09:27:28 GMT",
+        "cf-cache-status": "HIT",
+        "age": "15825496",
+        "accept-ranges": "bytes",
+        "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "vary": "Accept-Encoding",
+        "server": "cloudflare",
+        "cf-ray": "6ba6524defa1046e-CDG"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "5876.14",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "timestamp": 17562.423946,
+      "type": "Image",
+      "response": {
+        "url": "https://cdn.datatables.net/1.10.21/images/sort_asc.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Wed, 08 Dec 2021 13:25:45 GMT",
+          "cf-cache-status": "HIT",
+          "last-modified": "Thu, 11 Nov 2021 17:29:12 GMT",
+          "server": "cloudflare",
+          "age": "1943810",
+          "x-frame-options": "SAMEORIGIN",
+          "etag": "\"15e0929-a0-5d086ae4ea0f9\"",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/png",
+          "cache-control": "max-age=31536000",
+          "accept-ranges": "bytes",
+          "cf-ray": "6ba6524defa5046e-CDG",
+          "content-length": "160",
+          "expires": "Wed, 16 Nov 2022 01:28:54 GMT"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 79,
+        "remoteIPAddress": "104.22.50.93",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 315,
+        "timing": {
+          "requestTime": 17562.155571,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 189.28,
+          "sendEnd": 189.71,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 267.239
+        },
+        "responseTime": 1638969944629.844,
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni.cloudflaressl.com",
+          "sanList": [
+            "datatables.net",
+            "sni.cloudflaressl.com",
+            "*.datatables.net"
+          ],
+          "issuer": "Cloudflare Inc ECC CA-3",
+          "validFrom": 1624838400,
+          "validTo": 1656374399,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Argon2022' log",
+              "logId": "2979BEF09E393921F056739F63A577E5BE577D9C600AF8F94D5D265C255DC784",
+              "timestamp": 1624893022797,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100CC70E788575CD7682FAF7C20731E710A960B3B9A31D8A34E6D253E3A1EC18888022100F2FB57823E4184A536618F8C4B1C9DA35602AF5FBB4BD1E8175C444B53D9EB39"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "DigiCert Yeti2022 Log",
+              "logId": "2245450759552456963FA12FF1F76D86E0232663ADC04B7F5DC6835C6EE20F02",
+              "timestamp": 1624893022845,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100AC359DE78E6655F1BD780E4595A2BCD4CAD3CD8786E7BDD18D4621128B6CB7A70221008217AF730ECF293B1DB51BB7393FDC74A8E3771E6BBC9D9AA165E4E42D38C77C"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2022' Log",
+              "logId": "41C8CAB1DF22464A10C6A13A0942875E4E318B1B03EBEB4BC768F090629606F6",
+              "timestamp": 1624893022881,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100F41EF085350F57321639838E9A1071C126FCA1A209628890357CE5C21F11E23A02202EA04C05A6D6505C6D996789CD6B4FF67483ABAA5ECCFDE0911419AFFF8418E1"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "5876.14",
+      "timestamp": 17562.424061,
+      "dataLength": 160,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "5876.14",
+      "timestamp": 17562.423345,
+      "encodedDataLength": 315,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "5876.13",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "timestamp": 17562.425391,
+      "type": "Image",
+      "response": {
+        "url": "https://cdn.datatables.net/1.10.21/images/sort_both.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Wed, 08 Dec 2021 13:25:45 GMT",
+          "cf-cache-status": "HIT",
+          "last-modified": "Tue, 08 Jun 2021 08:47:53 GMT",
+          "server": "cloudflare",
+          "age": "15825496",
+          "x-frame-options": "SAMEORIGIN",
+          "etag": "\"15e11c6-c9-5c43d36ba75e6\"",
+          "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+          "vary": "Accept-Encoding",
+          "content-type": "image/png",
+          "cache-control": "max-age=31536000",
+          "accept-ranges": "bytes",
+          "cf-ray": "6ba6524defa1046e-CDG",
+          "content-length": "201",
+          "expires": "Wed, 08 Jun 2022 09:27:28 GMT"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 79,
+        "remoteIPAddress": "104.22.50.93",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 315,
+        "timing": {
+          "requestTime": 17562.139311,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 205.48,
+          "sendEnd": 205.967,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 283.753
+        },
+        "responseTime": 1638969944629.968,
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "AES_128_GCM",
+          "certificateId": 0,
+          "subjectName": "sni.cloudflaressl.com",
+          "sanList": [
+            "datatables.net",
+            "sni.cloudflaressl.com",
+            "*.datatables.net"
+          ],
+          "issuer": "Cloudflare Inc ECC CA-3",
+          "validFrom": 1624838400,
+          "validTo": 1656374399,
+          "signedCertificateTimestampList": [
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Google 'Argon2022' log",
+              "logId": "2979BEF09E393921F056739F63A577E5BE577D9C600AF8F94D5D265C255DC784",
+              "timestamp": 1624893022797,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100CC70E788575CD7682FAF7C20731E710A960B3B9A31D8A34E6D253E3A1EC18888022100F2FB57823E4184A536618F8C4B1C9DA35602AF5FBB4BD1E8175C444B53D9EB39"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "DigiCert Yeti2022 Log",
+              "logId": "2245450759552456963FA12FF1F76D86E0232663ADC04B7F5DC6835C6EE20F02",
+              "timestamp": 1624893022845,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100AC359DE78E6655F1BD780E4595A2BCD4CAD3CD8786E7BDD18D4621128B6CB7A70221008217AF730ECF293B1DB51BB7393FDC74A8E3771E6BBC9D9AA165E4E42D38C77C"
+            },
+            {
+              "status": "Verified",
+              "origin": "Embedded in certificate",
+              "logDescription": "Cloudflare 'Nimbus2022' Log",
+              "logId": "41C8CAB1DF22464A10C6A13A0942875E4E318B1B03EBEB4BC768F090629606F6",
+              "timestamp": 1624893022881,
+              "hashAlgorithm": "SHA-256",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100F41EF085350F57321639838E9A1071C126FCA1A209628890357CE5C21F11E23A02202EA04C05A6D6505C6D996789CD6B4FF67483ABAA5ECCFDE0911419AFFF8418E1"
+            }
+          ],
+          "certificateTransparencyCompliance": "compliant"
+        }
+      },
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "5876.13",
+      "timestamp": 17562.425511,
+      "dataLength": 201,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "5876.13",
+      "timestamp": 17562.423665,
+      "encodedDataLength": 315,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "name": "firstImagePaint",
+      "timestamp": 17562.447456
+    }
+  },
+  {
+    "method": "Network.webSocketFrameReceived",
+    "params": {
+      "requestId": "5876.12",
+      "timestamp": 17562.513301,
+      "response": {
+        "opcode": 1,
+        "mask": false,
+        "payloadData": "connected"
+      }
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "name": "networkAlmostIdle",
+      "timestamp": 17562.34791
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "name": "firstMeaningfulPaint",
+      "timestamp": 17562.330866
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "B33D93CD598982C2199CA99A4C37D3F1",
+      "loaderId": "8479F3442E2404083D4177C43EE61DC9",
+      "name": "networkIdle",
+      "timestamp": 17562.425729
+    }
+  }
+]
