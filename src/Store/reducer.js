@@ -3,7 +3,7 @@ import {clicked , closed, submitted} from './actions'
 const initialState = {
     isClicked : false,
     isSubmitted: false,
-    isClosed: false
+    isClosed: false,
 }
 
 export const reducer = (state = initialState, action) => {

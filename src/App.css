@@ -1,0 +1,33 @@
+.title, .title-create-employee, .employee-link, .home-link{
+    text-align: center;
+    display: block;
+}
+.title-employee{
+    margin: 6em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+label{
+    margin-top: 1em;
+}
+fieldset{
+    margin-top: 0.5em;
+    padding: 1em;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: column;
+}
+.btn-create{
+    width: 20%;
+    margin: 1em auto;
+}
+.search-bar{
+    text-align: right;
+    margin-right: 3%;
+}
+.form-employee{
+    margin: auto;
+}

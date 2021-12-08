@@ -3,7 +3,6 @@ import Field from '../Field/Field'
 import Select from '../Select/Select'
 import {states} from '../../datas/countries'
 import {department} from '../../datas/department'
-import "./Form.css"
 import Options from '../Select/Options'
 import Button from '../Button/Button'
 import {useSelector, useDispatch} from 'react-redux'
@@ -33,13 +32,10 @@ export default function Form(props) {
         }
         employees.push(dataEmployees)
         localStorage.setItem("data", JSON.stringify(employees))
-        console.log(
-            JSON.parse(localStorage.getItem("data"))
-        );
     }
 
     return (
-        <form onSubmit={handleSubmit} id= {props.id}>
+        <form className="form-employee" onSubmit={handleSubmit} id= {props.id}>
             <Field type="text" value="First Name" id="first-name" />
             <Field type="text" value="Last Name" id="last-name" />
             <DateSelector value="Date of Birth" id="birth" />

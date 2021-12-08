@@ -6,9 +6,9 @@ import Title from '../../Component/Title/Title'
 export default function EmployeeList() {
     return (
         <main>
-            <Title Tag="h2" className="title" text="Current Employees" />
+            <Title Tag="h2" className="title title-employee" text="Current Employees" />
             <TableEmployee />
-            <Link to="/"> Home </Link>
+            <Link className="home-link" to="/"> Home </Link>
         </main>
     )
 }
