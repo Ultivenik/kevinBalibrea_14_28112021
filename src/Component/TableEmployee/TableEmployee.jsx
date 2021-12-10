@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Table } from 'antd'
+import { Layout, Table } from 'antd'
 import {columns} from '../../datas/tableColumns'
 import { Input } from 'antd'
 
@@ -17,7 +17,10 @@ export default function TableEmployee() {
     }
 
     return (
-        <div>
+        <Layout
+            breakpoint="lg"
+            collapsedWidth="0"
+        >
             <p className="search-bar">
                 <label htmlFor="search">Search: </label>
                 <Input
@@ -51,6 +54,6 @@ export default function TableEmployee() {
                     itemRender:	itemRender
                 }}
             />
-        </div>
+        </Layout>
     )
 }
