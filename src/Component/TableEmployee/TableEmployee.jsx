@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Layout, Table } from 'antd'
+import { Table } from 'antd'
 import {columns} from '../../datas/tableColumns'
 import { Input } from 'antd'
 
@@ -17,10 +17,7 @@ export default function TableEmployee() {
     }
 
     return (
-        <Layout
-            breakpoint="lg"
-            collapsedWidth="0"
-        >
+        <React.Fragment >
             <p className="search-bar">
                 <label htmlFor="search">Search: </label>
                 <Input
@@ -42,19 +39,18 @@ export default function TableEmployee() {
             <Table
                 columns={columns}
                 dataSource={dataSearched}
-                backGround="red"
                 pagination={{
                     defaultPageSize: 10,
                     showSizeChanger: true,
                     pageSizeOptions: ['10', '25', '50', "100"],
                     showTotal:(total, range) =>{
                         return(
-                            <div> showing {total} entries of {range} </div>
+                            <div> Showing {total} entries of {range} </div>
                         )
                     },
                     itemRender:	itemRender
                 }}
             />
-        </Layout>
+        </React.Fragment>
     )
 }
