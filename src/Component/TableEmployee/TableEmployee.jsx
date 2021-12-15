@@ -42,6 +42,7 @@ export default function TableEmployee() {
             <Table
                 columns={columns}
                 dataSource={dataSearched}
+                backGround="red"
                 pagination={{
                     defaultPageSize: 10,
                     showSizeChanger: true,
